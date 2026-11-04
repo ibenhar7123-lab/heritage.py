@@ -1,0 +1,7 @@
+class Document:
+    def __init__(self, titre, annee):
+        self.titre = titre
+        self.annee = annee
+
+    def afficher(self):
+        print(f"{self.titre} ({self.annee})")
